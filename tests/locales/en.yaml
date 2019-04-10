@@ -1,0 +1,5 @@
+dialog:
+  test: I'm {{ name }} !
+  he: Angry233333
+  
+  

@@ -1,0 +1,6 @@
+node_modules/
+lib/
+.vscode/
+*.log
+**/locales/*.ts
+*.txt

@@ -1,0 +1,3 @@
+dialog:
+  test: 我是 {{ name }} !
+  he: 安格瑞

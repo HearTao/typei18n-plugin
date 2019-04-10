@@ -1,0 +1,20 @@
+{
+  "name": "typei18n-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "author": "",
+  "main": "lib/index.js",
+  "files": ["lib"],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mock-require": "^2.0.0",
+    "@types/node": "^11.13.0",
+    "mock-require": "^3.0.3",
+    "prettier": "^1.16.4",
+    "typei18n": "^1.0.5",
+    "typescript": "^3.4.1"
+  }
+}
