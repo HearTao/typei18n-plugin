@@ -2,24 +2,17 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.3.4", "@babel/runtime@^7.4.3":
+"@babel/runtime@^7.4.3":
   version "7.4.3"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.4.3.tgz#79888e452034223ad9609187a0ad1fe0d2ad4bdc"
   integrity sha512-9lsJwJLxDh/T3Q3SZszfWOTkk3pHbkmH+3KY+zwIDmsNlxsumuhS2TH3NIpktU4kNvfzy+k3eLT7aTJSPTo0OA==
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@types/mock-require@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/@types/mock-require/-/mock-require-2.0.0.tgz#57a4f0db0b4b6274f610a2d2c20beb3c842181e1"
-  integrity sha512-nOgjoE5bBiDeiA+z41i95makyHUSMWQMOPocP+J67Pqx/68HAXaeWN1NFtrAYYV6LrISIZZ8vKHm/a50k0f6Sg==
-  dependencies:
-    "@types/node" "*"
-
-"@types/node@*", "@types/node@^11.13.0":
-  version "11.13.0"
-  resolved "https://registry.npmjs.org/@types/node/-/node-11.13.0.tgz#b0df8d6ef9b5001b2be3a94d909ce3c29a80f9e1"
-  integrity sha512-rx29MMkRdVmzunmiA4lzBYJNnXsW/PhG4kMBy2ATsYaDjGGR75dCFEVVROKpNwlVdcUX3xxlghKQOeDPBJobng==
+"@types/node@^11.13.0":
+  version "11.13.4"
+  resolved "https://registry.npmjs.org/@types/node/-/node-11.13.4.tgz#f83ec3c3e05b174b7241fadeb6688267fe5b22ca"
+  integrity sha512-+rabAZZ3Yn7tF/XPGHupKIL5EcAbrLxnTr/hgQICxbeuAfWtT0UZSfULE+ndusckBItcv4o6ZeOJplQikVcLvQ==
 
 "@types/os-locale@^2.1.0":
   version "2.1.0"
@@ -1070,9 +1063,9 @@ p-finally@^1.0.0:
   integrity sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
 
 p-is-promise@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/p-is-promise/-/p-is-promise-2.0.0.tgz#7554e3d572109a87e1f3f53f6a7d85d1b194f4c5"
-  integrity sha512-pzQPhYMCAgLAKPWD2jC3Se9fEfrD9npNos0y150EeqZll7akhEgGhTW/slB6lHku8AvYGiJ+YJ5hfHKePPgFWg==
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/p-is-promise/-/p-is-promise-2.1.0.tgz#918cebaea248a62cf7ffab8e3bca8c5f882fc42e"
+  integrity sha512-Y3W0wlRPK8ZMRbNq97l4M5otioeA5lm1z7bkNkxCka8HSPjR0xRWmpCmc9utiaLP9Jb1eD8BgeIxTW4AIF45Pg==
 
 p-limit@^2.0.0:
   version "2.2.0"
@@ -1122,11 +1115,6 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.npmjs.org/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
-
-prettier@^1.16.4:
-  version "1.16.4"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-1.16.4.tgz#73e37e73e018ad2db9c76742e2647e21790c9717"
-  integrity sha512-ZzWuos7TI5CKUeQAtFd6Zhm2s6EpAD/ZLApIhsF9pRvRtM1RFo61dM/4MSRUA0SuLugA/zgrZD8m0BaY46Og7g==
 
 process-nextick-args@~2.0.0:
   version "2.0.0"
@@ -1486,9 +1474,9 @@ typei18n@^1.0.6:
     yargs "^13.2.2"
 
 typescript@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-3.4.1.tgz#b6691be11a881ffa9a05765a205cb7383f3b63c6"
-  integrity sha512-3NSMb2VzDQm8oBTLH6Nj55VVtUEpe/rgkIzMir0qVoLyjDZlnMBva0U6vDiV3IH+sl/Yu6oP5QwsAQtHPmDd2Q==
+  version "3.4.3"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-3.4.3.tgz#0eb320e4ace9b10eadf5bc6103286b0f8b7c224f"
+  integrity sha512-FFgHdPt4T/duxx6Ndf7hwgMZZjZpB+U0nMNGVCYPq0rEzWKjEDobm4J6yb3CS7naZ0yURFqdw9Gwc7UOh/P9oQ==
 
 union-value@^1.0.0:
   version "1.0.0"
@@ -1570,14 +1558,7 @@ yallist@^3.0.0, yallist@^3.0.2:
   resolved "https://registry.npmjs.org/yallist/-/yallist-3.0.3.tgz#b4b049e314be545e3ce802236d6cd22cd91c3de9"
   integrity sha512-S+Zk8DEWE6oKpV+vI3qWkaK+jSbIK86pCwe2IF/xwIpQ8jEuxpw9NyaGjmp9+BoJv5FV2piqCDcoCtStppiq2A==
 
-yaml@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/yaml/-/yaml-1.4.0.tgz#b729a3ef7e35bdc5ece8f28900e20a9b41510fc3"
-  integrity sha512-rzU83hGJrNgyT7OE2mP/SILeZxEMRJ0mza0n4KFtkNL1aXUZ79ZgZ5pIH56yT6LiqujcAs/Rqzp0ApvvNYfUfw==
-  dependencies:
-    "@babel/runtime" "^7.3.4"
-
-yaml@^1.5.0:
+yaml@^1.4.0, yaml@^1.5.0:
   version "1.5.0"
   resolved "https://registry.npmjs.org/yaml/-/yaml-1.5.0.tgz#1d879dd069ce1036041c23229cb5d7ef47a58ec6"
   integrity sha512-nKxSWOa7vxAP2pikrGxbkZsG/garQseRiLn9mIDjzwoQsyVy7ZWIpLoARejnINGGLA4fttuzRFFNxxbsztdJgw==

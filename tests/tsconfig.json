@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./lib",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "plugins": [{
+      "name": "/Users/wangwenlu/Desktop/opensource/typei18n-ext/lib",
+      "options": {
+        "moduleName": "i18n",
+        "filePath": "./locales/index.d.ts",
+        "locales": "./locales"
+      }
+    }]
+  }
+}
